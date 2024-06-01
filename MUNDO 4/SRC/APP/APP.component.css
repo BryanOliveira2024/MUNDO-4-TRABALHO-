@@ -1,0 +1,11 @@
+cd livros-angular
+
+ng g class Livro --skip-tests
+ng g class Editora --skip-tests
+ng g s ControleEditora --skip-tests
+ng g s ControleLivros --skip-tests
+ng g c LivroLista --skip-tests
+ng g c LivroDados --skip-tests
+
+npm install -g @angular
+
